@@ -104,4 +104,4 @@ Further analysis of the transistor-based stage.
 
 This is the original circuit schematic designed by me.
 
-![The test :](voltagereg.png)
+![The test :](voltagetest.png)
