@@ -104,4 +104,4 @@ Further analysis of the transistor-based stage.
 
 This is the original circuit schematic designed by me.
 
-![My Linear Power Supply Circuit](voltagereg.png)
+![The test :](voltagereg.png)
