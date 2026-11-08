@@ -100,4 +100,8 @@ Improved documentation of component specifications.
 
 Further analysis of the transistor-based stage.
 
+## Circuit Schematic
 
+This is the original circuit schematic designed by me.
+
+![My Linear Power Supply Circuit](voltagereg.png)
