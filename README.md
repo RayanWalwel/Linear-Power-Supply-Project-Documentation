@@ -1,5 +1,8 @@
 Linear Power Supply – Project Documentation
+
 1. Project Overview
+
+
 
 This project focuses on the design, simulation, and practical implementation of a linear power supply circuit.
 
@@ -7,19 +10,19 @@ The main objective is to convert an AC input voltage into a DC output voltage an
 
 2. Design and Development
 
-The circuit was designed by me, including the selection and arrangement of its electronic components.
+The circuit was independently designed and assembled by me.
 
-The design includes:
+Its main functional sections include:
 
 AC input source
 
-Rectification stage
+Rectification stage using diodes
 
-Capacitor-based filtering stage
+Capacitive filtering stage
 
-Transistor-based voltage regulation stage
+NPN transistor-based stage
 
-Output measurement and testing points
+Output voltage measurement
 
 3. Components
 
@@ -27,42 +30,74 @@ Component
 
 Specification
 
-Rectifier
+Diodes
 
-[Specify component]
+Diode / Zener diode (exact model to be specified)
 
 Capacitors
 
-[Values and voltage ratings]
+3 × 500 µF
+
+Total capacitance
+
+1500 µF, if connected in parallel
 
 Transistor
 
-[Part number]
+NPN transistor (exact model to be specified)
 
-Resistors
+Resistor
 
-[Values]
+1 kΩ
 
-Other components
+Input source
 
-[Specify]
+120 V AC, 60 Hz
 
 4. Experimental Results
 
-The following measurements were obtained during testing:
+During the experiment, the circuit was supplied with an AC input of:
 
-[Insert actual input and output voltage readings, measurement conditions, and test duration.]
+Input voltage: 120 V AC
 
-5. Voltage Regulation Analysis
+Frequency: 60 Hz
 
-The measured output voltage will be analyzed to determine how consistently the circuit maintains its output when the input voltage or load conditions change.
+Phase angle: 0°
 
-6. Limitations
+The measured DC output voltage initially reached approximately 170–173 V and gradually decreased until it stabilized at 165.8 V.
 
-Any observed limitations, measurement uncertainties, or unresolved issues will be documented here.
+5. Voltage Behavior Analysis
+
+The output voltage exhibited an initial decrease before reaching a relatively stable value.
+
+The recorded voltage change was approximately 4.2–7.2 V, depending on the initial reading.
+
+This behavior was observed during the experiment. Further testing would be required to determine the precise cause of the voltage decrease and evaluate the effectiveness of the regulation stage.
+
+6. Observed Limitations
+
+Delayed output voltage stabilization.
+
+Initial output voltage variation.
+
+Further characterization of voltage regulation and ripple is required.
 
 7. Conclusion
 
-This project represents a practical exploration of AC-to-DC conversion, voltage filtering, and linear voltage regulation.
+This project provided practical experience in AC-to-DC conversion, rectification, capacitive filtering, and transistor-based circuit design.
 
-The results and conclusions presented in this repository are based on the actual measurements and tests performed during development.
+The experimental results demonstrate an observable DC output and a gradual voltage change before stabilization.
+
+Further measurements are necessary to fully characterize the circuit's regulation performance.
+
+8. Future Improvements
+
+More detailed output voltage characterization.
+
+Ripple analysis using appropriate simulation or safe low-voltage measurement methods.
+
+Improved documentation of component specifications.
+
+Further analysis of the transistor-based stage.
+
+
