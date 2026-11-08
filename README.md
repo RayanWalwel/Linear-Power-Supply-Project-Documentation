@@ -52,35 +52,26 @@ Resistor
 
 Input source
 
-120 V AC, 60 Hz
+11.5 V AC, 60 Hz
 
 4. Experimental Results
 
 During the experiment, the circuit was supplied with an AC input of:
 
-Input voltage: 120 V AC
+Input voltage: 11.5 V AC
 
 Frequency: 60 Hz
 
 Phase angle: 0°
 
-The measured DC output voltage initially reached approximately 170–173 V and gradually decreased until it stabilized at 165.8 V.
-
+The measured DC output voltage initially reached approximately 14.99 V and gradually decreased until it stabilized at 14.97 V.
 5. Voltage Behavior Analysis
 
 The output voltage exhibited an initial decrease before reaching a relatively stable value.
 
-The recorded voltage change was approximately 4.2–7.2 V, depending on the initial reading.
+The recorded voltage change was approximately 0.2 V, depending on the initial reading.
 
-This behavior was observed during the experiment. Further testing would be required to determine the precise cause of the voltage decrease and evaluate the effectiveness of the regulation stage.
 
-6. Observed Limitations
-
-Delayed output voltage stabilization.
-
-Initial output voltage variation.
-
-Further characterization of voltage regulation and ripple is required.
 
 7. Conclusion
 
