@@ -69,7 +69,7 @@ The measured DC output voltage initially reached approximately 14.99 V and gradu
 
 The output voltage exhibited an initial decrease before reaching a relatively stable value.
 
-The recorded voltage change was approximately 0.2 V, depending on the initial reading.
+The recorded voltage change was approximately 0.02 V, depending on the initial reading.
 
 
 
