@@ -1,5 +1,4 @@
 Linear Power Supply – Project Documentation
-
 1. Project Overview
 
 This project focuses on the design, simulation, and practical implementation of a linear power supply circuit.
